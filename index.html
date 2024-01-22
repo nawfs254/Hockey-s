@@ -38,44 +38,66 @@
             font-family: 'Manrope', sans-serif;
         }
 
-        ul a{
-            background-color:  transparent !important; 
+        ul a {
+            background-color: transparent !important;
             border: none !important;
         }
     </style>
 </head>
 
 <body class="text-title font-manrope">
-    <header class="md:w-4/5 mx-auto my-10">
+    <header class="w-11/12 md:w-4/5 mx-auto my-5">
         <!-- navbar -->
-        <nav>
+        <nav class="my-5">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pr-0">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden px-0">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </div>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 pr-0 shadow rounded-box w-52">
-                            <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Home</a></li>
-                            <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">About</a></li>
-                            <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Pages</a></li>
-                            <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Blog</a></li>
-                            <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Contact</a></li>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 pr-0 shadow rounded-box w-52 bg-white">
+                            <li><a
+                                    class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Home</a>
+                            </li>
+                            <li><a
+                                    class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">About</a>
+                            </li>
+                            <li><a
+                                    class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Pages</a>
+                            </li>
+                            <li><a
+                                    class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Blog</a>
+                            </li>
+                            <li><a
+                                    class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Contact</a>
+                            </li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-2xl md:text-3xl font-extrabold ">Hockey<span class="text-primary">'</span>s</a>
+                    <a class="btn btn-ghost text-2xl md:text-3xl font-extrabold ">Hockey<span
+                            class="text-primary">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Home</a></li>
-                        <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">About</a></li>
-                        <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Pages</a></li>
-                        <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Blog</a></li>
-                        <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Contact</a></li>
+                        <li><a
+                                class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Home</a>
+                        </li>
+                        <li><a
+                                class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">About</a>
+                        </li>
+                        <li><a
+                                class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Pages</a>
+                        </li>
+                        <li><a
+                                class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Blog</a>
+                        </li>
+                        <li><a
+                                class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Contact</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="navbar-end flex gap-4 text-2xl">
@@ -84,6 +106,56 @@
                 </div>
             </div>
         </nav>
+
+        <!-- slide banner -->
+        <div class="relative">
+            <div class="carousel w-full h-auto lg:h-[500px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./resources/images/slider-1.png" class="rounded-3xl w-full" />
+                    <div
+                        class="absolute flex items-center gap-4 transform -translate-y-1/2 right-[43%] md:left-5 md:right-5 bottom-0">
+                        <a href="#slide4"><i class="fa-solid fa-circle-chevron-left md:text-3xl"></i></a>
+                        <a href="#slide2"><i class="fa-solid fa-circle-chevron-right md:text-3xl"></i></a>
+                    </div>
+                </div>
+
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./resources/images/slider-2.jpg" class="rounded-3xl w-full" />
+                    <div
+                        class="absolute flex items-center gap-4 transform -translate-y-1/2 right-[43%] md:left-5 md:right-5 bottom-0">
+                        <a href="#slide1"><i class="fa-solid fa-circle-chevron-left md:text-3xl"></i></a>
+                        <a href="#slide3"><i class="fa-solid fa-circle-chevron-right md:text-3xl"></i></a>
+                    </div>
+                </div>
+
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./resources/images/slider-3.jpg" class="rounded-3xl w-full" />
+                    <div
+                        class="absolute flex items-center gap-4 transform -translate-y-1/2 right-[43%] md:left-5 md:right-5 bottom-0">
+                        <a href="#slide2"><i class="fa-solid fa-circle-chevron-left md:text-3xl"></i></a>
+                        <a href="#slide4"><i class="fa-solid fa-circle-chevron-right md:text-3xl"></i></a>
+                    </div>
+                </div>
+
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./resources/images/slider-4.jpg" class="rounded-3xl w-full" />
+                    <div
+                        class="absolute flex items-center gap-4 transform -translate-y-1/2 right-[43%] md:left-5 md:right-5 bottom-0">
+                        <a href="#slide3"><i class="fa-solid fa-circle-chevron-left md:text-3xl"></i></a>
+                        <a href="#slide1"><i class="fa-solid fa-circle-chevron-right md:text-3xl"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="md:absolute bottom-0 right-0 p-3 md:p-8 m-0 md:m-6 bg-title rounded-3xl md:w-96 lg:w-auto space-y-3 lg:max-w-[500px]">
+                <h3 class="text-white text-xl md:text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                <p class="text-white text-xs md:text-base font-medium">Dive into the thrilling narratives of hockey
+                    legends,celebrating the indomitable spirit, skill, and dedication that make them true heroes on the
+                    ice</p>
+            </div>
+        </div>
+
     </header>
     <main></main>
     <footer></footer>
