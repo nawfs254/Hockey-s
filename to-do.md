@@ -1,0 +1,14 @@
+- [x] Navigation
+- [x] Banners
+	- [x] overlay card
+- [x] Stats
+- [x] Programs
+	- [x] texts on bottom left corner
+- [ ] Products
+- [ ] Faq
+- [ ] Contact
+	- [ ] contact details
+	- [ ] contact form
+	- [ ] social icons
+
+- [ ] Footer
