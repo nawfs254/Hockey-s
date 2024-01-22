@@ -13,31 +13,80 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/f5ad1aa0f6.js" crossorigin="anonymous"></script>
 
     <!-- custom tailwind colors -->
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                title : '#131318', primary : '#FF4240', 'text-light' : '#13131899'
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        title: '#131318', primary: '#FF4240', light: '#13131899',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 
     <!-- custom css class -->
     <style>
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
+
+        ul a{
+            background-color:  transparent !important; 
+            border: none !important;
+        }
     </style>
 </head>
 
-<body>
-
+<body class="text-title font-manrope">
+    <header class="md:w-4/5 mx-auto my-10">
+        <!-- navbar -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pr-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 pr-0 shadow rounded-box w-52">
+                            <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Home</a></li>
+                            <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">About</a></li>
+                            <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Pages</a></li>
+                            <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Blog</a></li>
+                            <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-2xl md:text-3xl font-extrabold ">Hockey<span class="text-primary">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Home</a></li>
+                        <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">About</a></li>
+                        <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Pages</a></li>
+                        <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Blog</a></li>
+                        <li><a class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end flex gap-4 text-2xl">
+                    <i class="fa-solid fa-magnifying-glass text-light hidden md:flex"></i>
+                    <a class="btn text-xl font-bold bg-primary text-white">Button</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 
 </html>
