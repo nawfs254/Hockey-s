@@ -6,9 +6,9 @@
 	- [x] texts on bottom left corner
 - [x] Products
 - [x] FAQs
-- [ ] Contact
-	- [ ] contact details
-	- [ ] contact form
-	- [ ] social icons
+- [x] Contact
+	- [x] contact details
+	- [x] contact form
+	- [x] social icons
 
 - [ ] Footer
