@@ -5,7 +5,7 @@
 - [x] Programs
 	- [x] texts on bottom left corner
 - [x] Products
-- [ ] FAQs
+- [x] FAQs
 - [ ] Contact
 	- [ ] contact details
 	- [ ] contact form
