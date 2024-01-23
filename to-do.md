@@ -1,11 +1,11 @@
 - [x] Navigation
-- [x] Banners
+	- [x] Banners
 	- [x] overlay card
 - [x] Stats
 - [x] Programs
 	- [x] texts on bottom left corner
 - [x] Products
-- [ ] Faq
+- [ ] FAQs
 - [ ] Contact
 	- [ ] contact details
 	- [ ] contact form
