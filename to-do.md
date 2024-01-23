@@ -11,4 +11,4 @@
 	- [x] contact form
 	- [x] social icons
 
-- [ ] Footer
+- [x] Footer
