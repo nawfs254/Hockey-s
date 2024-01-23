@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -34,6 +34,10 @@
 
     <!-- custom css class -->
     <style>
+        *{
+            scroll-behavior: smooth;
+        }
+
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
@@ -61,19 +65,19 @@
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 pr-0 shadow rounded-box w-52 bg-white">
-                            <li><a
+                            <li><a href="#"
                                     class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Home</a>
                             </li>
-                            <li><a
+                            <li><a href="#about"
                                     class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">About</a>
                             </li>
-                            <li><a
-                                    class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Pages</a>
+                            <li><a href="#program"
+                                    class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Program</a>
                             </li>
-                            <li><a
-                                    class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Blog</a>
+                            <li><a href="#products"
+                                    class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Products</a>
                             </li>
-                            <li><a
+                            <li><a href="#contact"
                                     class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Contact</a>
                             </li>
                         </ul>
@@ -83,19 +87,19 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a
+                        <li><a href="#"
                                 class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Home</a>
                         </li>
-                        <li><a
+                        <li><a href="#about"
                                 class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">About</a>
                         </li>
-                        <li><a
-                                class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Pages</a>
+                        <li><a href="#program"
+                                class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Program</a>
                         </li>
-                        <li><a
-                                class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Blog</a>
+                        <li><a href="#products"
+                                class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Products</a>
                         </li>
-                        <li><a
+                        <li><a href="#contact"
                                 class="text-light transition duration-100 hover:text-primary hover:bg-transparent hover:font-bold">Contact</a>
                         </li>
                     </ul>
@@ -159,7 +163,7 @@
 
     <main class="w-11/12 md:w-4/5 mx-auto my-10">
         <!-- stat section -->
-        <section class="my-5">
+        <section class="my-5" id="about">
             <!-- stat section title -->
             <section class="mx-auto text-center my-10 py-10 border-dashed border-t-2 border-b-2 space-y-6">
                 <h1 class="text-2xl lg:text-3xl font-extrabold">Professional Hockeys Club</h1>
@@ -201,7 +205,7 @@
         </section>
 
         <!-- program section -->
-        <section class="my-5">
+        <section class="my-5" id="program">
             <!-- event section title -->
             <section class="mx-auto text-center my-10 py-10 border-dashed border-t-2 border-b-2 space-y-6">
                 <h1 class="text-2xl lg:text-3xl font-extrabold">Our Program Categories</h1>
@@ -278,7 +282,7 @@
         </section>
 
         <!-- products section -->
-        <section class="my-5">
+        <section class="my-5" id="products">
             <!-- products section title -->
             <section class="mx-auto text-center my-10 py-10 border-dashed border-t-2 border-b-2 space-y-6">
                 <h1 class="text-2xl lg:text-3xl font-extrabold">Our New Products</h1>
@@ -642,7 +646,7 @@
         </section>
 
         <!-- contact section -->
-        <section class="my-5">
+        <section class="my-5" id="contact">
             <!-- contact section title -->
             <section class="mx-auto text-center my-10 py-10 border-dashed border-t-2 border-b-2 space-y-6">
                 <h1 class="text-2xl lg:text-3xl font-extrabold">Get In Touch</h1>
@@ -786,6 +790,8 @@
             </div>
         </div>
     </footer>
+
+    <a href="#"><i class="fa-solid fa-circle-up text-3xl text-primary hidden fixed md:block z-50 bottom-10 right-10"></i></a>
 </body>
 
 </html>
