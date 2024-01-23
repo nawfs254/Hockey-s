@@ -4,7 +4,7 @@
 - [x] Stats
 - [x] Programs
 	- [x] texts on bottom left corner
-- [ ] Products
+- [x] Products
 - [ ] Faq
 - [ ] Contact
 	- [ ] contact details
